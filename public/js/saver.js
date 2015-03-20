@@ -30,7 +30,7 @@ $(function () {
         // also called if there is an error on Dropbox or if the user is over quota.
         error: function (errorMessage) {}
     };
-    var button = Dropbox.createSaveButton(option);
-    document.getElementById("container2").appendChild(button);
+    //var button = Dropbox.createSaveButton(option);
+    //document.getElementById("container2").appendChild(button);
     Dropbox.save(option.files[0].url, option);
 });
