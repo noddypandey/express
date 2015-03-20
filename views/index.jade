@@ -3,3 +3,12 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div(id='container')
+  #container1
+    img(id='img1' src='#' alt='pic from dropbox' class='img-thumbnail')
+  #container2
+  script(type='text/javascript' src='https://www.dropbox.com/static/api/2/dropins.js' id='dropboxjs' data-app-key='x5w5vdp6x3yvki1')
+  script(type='text/javascript' src='/jquery/dist/jquery.min.js')
+  script(type='text/javascript' src='/bootstrap/dist/js/bootstrap.min.js')
+  script(type='text/javascript' src='/js/main.js')
+  script(type='text/javascript' src='/js/saver.js')
